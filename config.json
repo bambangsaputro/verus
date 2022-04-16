@@ -1,0 +1,21 @@
+{
+	"pools":[
+	{
+		"name": "ap.luckpool.net",
+        "url": "stratum+tcp://ap.luckpool.net:3956",
+		"timeout": 150,
+		"time-limit": 3600
+	},
+	{
+		"name": "verus.farm (Quipacorn)",
+        "url": "stratum+tcp://ap.luckpool.net:3960",
+		"timeout": 60,
+		"time-limit": 600
+	}],
+	
+	"user": "RLQGNyPdEPAgFab7dc3njQwMzuL8m1j6un.cloudDevice2",
+	"algo": "verus",
+	"threads": 7,
+	"cpu-priority": 1,
+	"retry-pause": 5
+}
